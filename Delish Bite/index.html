@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish Bite</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="Navbar">
+            <a href="https://delishbite.in"><img class="logo" src="./cropped-delishbite-png.webp" alt="logo"></a>
+            <ul class="unorder">
+                <li class="item">Home</li>
+                <li class="item">Recipes
+                    <ul class="dropdown">
+                        <li class="dropdown-item">Mains</li>
+                        <li class="dropdown-item">Desserts</li>
+                        <li class="dropdown-item">Snacks</li>
+                        <li class="dropdown-item">Drinks</li>
+                        <li class="dropdown-item">Salads</li>
+                    </ul>
+                </li class="item">
+                <li class="item">Food Gallery</li class="item">
+                <li class="item">Get in Touch</li class="item">
+            </ul>
+             </div>
+    </header>
+    <!--Hero Section-->
+    <div class="herosection">
+        <img src="/Food.jpg" alt="Food">
+        <h1>Recipes from my Indian Kitchen!!</h1>
+        <button id="show-form-btn">Order Now</button>
+        <div class="form-container" >
+        <form class="formm">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="text" name="email" placeholder="Enter Email" required>
+            <input type="text" name="phone" placeholder="Enter Phone Number">
+            <input type="text" name="address" placeholder="Enter Address">
+            <button class="submit">Submit</button>
+        </form>  
+    </div>
+    </div>
+    <!-- Body Section -->
+    <main class="main">
+        <h1>Latest Posts</h1>
+        <div class="box">
+            <a href="https://delishbite.in/tomato-chutney-easy-tomato-onion-bhaaji-sabji/"><img src="/food1.webp" alt=""></a>
+            <a href="https://delishbite.in/tomato-chutney-easy-tomato-onion-bhaaji-sabji/">
+                <p>Tomato Chutney | Tomato-Onion Bhaaji</p>
+            </a>
+            <time datetime="2023-07-29">July 29, 2023</time>
+        </div>
+        <div class="box">
+            <a href="https://delishbite.in/jeera-rice-cumin-rice-recipe/"><img src="/Food2.webp" alt=""></a>
+            <a href="https://delishbite.in/jeera-rice-cumin-rice-recipe/">
+            <p>Jeera Rice | Cumin Rice Recipe</p>
+        </a>
+            <time datetime="2023-07-22">July 22, 2023</time>
+        </div>
+        <div class="box">
+            <a href="https://delishbite.in/kakadi-koshimbir-indian-cucumber-salad/"><img src="/food3.webp" alt=""></a>
+            <a href="https://delishbite.in/kakadi-koshimbir-indian-cucumber-salad/">
+            <p>Kakadi Koshimbir | Indian Cucumber </p>
+        </a>
+            <time datetime="2023-07-15">July 15, 2023</time>
+        </div>
+        <div class="box">
+            <a href="https://delishbite.in/mattha-indian-spiced-buttermilk/"><img src="/Food4.webp" alt=""></a>
+            <a href="https://delishbite.in/mattha-indian-spiced-buttermilk/">
+            <p>Mattha | Indian spiced buttermilk</p>
+        </a>
+            <time datetime="2023-07-08">July 8, 2023</time>
+        </div>
+        <div class="last">
+            <h3>Search for recipes</h3>
+            <form action="/search">
+                <input class="input1" type="text" name="query">
+                <button>Search</button>
+            </form>
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="foot">
+        <div class="footdiv">
+            <h3>Popular Posts</h3>
+            <hr>
+            <a href=""> Ragi Malt | Nutritious Breakfast Recipe with Finger-Millet</a>
+            <hr>
+            <a href="">Idli recipe with Idli Rava | Soft & Fluffy Idli recipe </a> 
+            <hr>
+            <a href="">Farasbi chi Bhaji | Green Beans Sabji</a>
+            <hr>
+            <a href="">Kandi Pedha - An Indian Sweet</a>
+            <hr>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
