@@ -16,7 +16,7 @@ button.addEventListener('click',function(e){
         e.preventDefault();
         let formdata= new FormData(e.target);
         let obj={};
-        FormData.forEach((val,key)=>{
+        formdata.forEach((val,key)=>{
             obj[key]=val;
         })
         console.log('Form Submitted:', obj);
